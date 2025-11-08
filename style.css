@@ -1,16 +1,29 @@
-#button {
-    position: absolute;
-    top:30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 18px;
+#text {
+    color: red;
+    text-align: center;
+    text-shadow: 2px 2px 5px black;
 }
-#title {
+#canvas {
+    width: 600px;
+    height: 300px;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
     position: absolute;
-    top: 30px;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-family: monospace;
-    font-size: 2.5em;
-    letter-spacing: 2px;
+}
+#buttons {
+    position: absolute;
+    top: 110px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#counter {
+    position: absolute;
+    top: 55px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
 }
